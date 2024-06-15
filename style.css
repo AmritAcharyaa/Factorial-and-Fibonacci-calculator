@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.container{
+    background-color: rgb(233, 123, 125);
+    height: 100%;
+    width: 100%;
+display: flex;
+align-items: flex-end;
+}
+.heading{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading p{
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+}
+.ioSection{
+    
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputSection{
+    width: 80%;
+    height: 15%;
+    box-shadow: 2px 2px 22px 2px white;
+    display: flex;
+}
+.inputField{
+    width: 70%;
+    height: 100%;
+    
+}
+.inputField p{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-size: x-small;
+    margin-left: 10px;
+}
+#myNumber{
+    width: 100%;
+    height: 40%;
+    font-size: small;
+    margin: 5px 10px 5px 10px;
+    padding-left: 10px;
+}
+#myNumber::placeholder{
+    font-size: small;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+#myNumber:focus{
+    border-style: none;
+}
+
+.btnField{
+    width: 30%;
+    height: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outputSection{
+    color: white;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    padding: 0px 10px;
+   
+}
+
+.outputSection p{
+    overflow-y: hidden;
+    overflow-x:auto;
+}
+
+
+.btn{
+    width: 150px;
+    height: 35px;
+    border-style: none;
+    border-radius: 9px;
+margin-bottom: 20px;
+
+}
